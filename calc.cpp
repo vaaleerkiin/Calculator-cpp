@@ -6,6 +6,13 @@ int main() {
 	int op;
 	cout << "Enter Two numbers: " << endl;
 	cin >> a >> b;
+	if (cin.get() == 10)
+	{
+		cout << "vse good" << endl;
+	    } else {
+			 cout << "pishov nahuy chmo" << endl;
+			 exit(1);
+		}
 	cout << "Choose Operator: 1. + 2. - 3. * 4. / " << endl;
 	cin >> op;
 
